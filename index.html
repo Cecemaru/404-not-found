@@ -28,32 +28,35 @@
       };
     </script>
   </head>
-  <body class="h-full flex flex-col justify-between px-6">
+  <body
+    class="h-full flex flex-col justify-between px-6 max-w-screen-2xl md:mx-auto"
+  >
     <header class="py-5">
       <h1 class="text-2xl uppercase font-black">404 not found</h1>
     </header>
 
     <main>
-      <section>
+      <section class="md:flex">
         <img
-          class="w-80 mx-auto"
+          class="max-w-xs mx-auto md:mx-0 md:max-w-xl md:mr-28 object-contain md:w-1/2"
           src="assests/public/Scarecrow.png"
           alt="Scarecrow"
         />
 
-        <div class="flex flex-col gap-0 items-start mt-1 mb-16">
-          <h2 class="text-5xl font-bold py-6 leading-normal">
+        <div class="flex flex-col gap-0 items-start mt-1 md:w-1/2">
+          <h2 class="text-5xl font-bold py-6 leading-normal md:text-6xl">
             I have bad news for you
           </h2>
-          <p class="max-w-sm text-lg">
+          <p class="max-w-sm text-lg md:text-2xl">
             The page you are looking for might be removed or is temporarily
             unavailable
           </p>
+          <button
+            class="py-6 px-11 bg-neutral-900 text-white text-sm uppercase mt-16"
+          >
+            Back to homepage
+          </button>
         </div>
-
-        <button class="py-6 px-11 bg-neutral-900 text-white text-sm uppercase">
-          Back to homepage
-        </button>
       </section>
     </main>
 
