@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{cecemaru.github.io/404-not-found/}">
+    <a href="https://cecemaru.github.io/404-not-found/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{tailwindcss.com/docs/responsive-design}">
+    <a href="https://tailwindcss.com/docs/responsive-design">
       Solution
     </a>
     <span> | </span>
